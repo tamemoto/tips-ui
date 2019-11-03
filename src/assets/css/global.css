@@ -12,16 +12,6 @@ body {
     max-width: 1000px;
     margin: 4rem auto;
 }
-.c-heading {
-    width: 100%;
-    margin-bottom: 45px;
-}
-.c-heading__main {
-    font-size: 2.8rem;
-}
-.c-heading__sub {
-    font-size: 2.0rem;
-}
 .c-designItems, .c-item {
     display: flex;
     box-sizing: border-box;
