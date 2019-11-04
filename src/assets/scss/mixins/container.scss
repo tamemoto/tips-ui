@@ -1,0 +1,26 @@
+@mixin container() {
+  width: 95%;
+  max-width: 1000px;
+  margin: 4rem auto;
+}
+@mixin content() {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  flex: 0 1 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+@mixin item() {
+  display: flex;
+  box-sizing: border-box;
+  flex: 0 1 auto;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 25%;
+  max-width: 25%;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+}

@@ -18,10 +18,9 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+  @import "./assets/scss/mixins.scss";
   #app {
-    width: 95%;
-    max-width: 1000px;
-    margin: 4rem auto;
+    @include container();
   }
 </style>

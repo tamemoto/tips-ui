@@ -60,7 +60,14 @@
     }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+    @import "../../assets/scss/mixins.scss";
+    .c-designItems {
+        @include content()
+    }
+    .c-item {
+        @include item()
+    }
     /* モーダル */
     .c-modal-overlay {
         overflow: auto;

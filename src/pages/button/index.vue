@@ -22,9 +22,15 @@
     }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+    @import "../../assets/scss/mixins.scss";
     /*影付きボタン*/
-
+    .c-designItems {
+        @include content()
+    }
+    .c-item {
+        @include item()
+    }
     .btn-square-shadow {
         display: inline-block;
         padding: .5rem 1rem;

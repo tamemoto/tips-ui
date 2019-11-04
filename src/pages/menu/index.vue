@@ -55,7 +55,14 @@
     }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+    @import "../../assets/scss/mixins.scss";
+    .c-designItems {
+        @include content()
+    }
+    .c-item {
+        @include item()
+    }
     /*ハンバーガーメニュー*/
     .c-drawer__unshown {
         display: none;

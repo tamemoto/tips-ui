@@ -1,25 +1,27 @@
 <template>
-    <div class="c-heading">
-        <h1 class="c-heading__main">css-design</h1>
-        <h2 class="c-heading__sub">this is design</h2>
-    </div>
+    <header class="l-heading">
+        <h1 class="l-heading__main">css-design</h1>
+        <h2 class="l-heading__sub">this is hoge</h2>
+    </header>
 </template>
 
 <script>
     export default {
-        name: "Header"
+        name: "Header",
     }
 </script>
 
-<style scoped>
-    .c-heading {
+<style lang="scss" scoped>
+    .l-heading {
         width: 100%;
         margin-bottom: 45px;
-    }
-    .c-heading__main {
-        font-size: 2.8rem;
-    }
-    .c-heading__sub {
-        font-size: 2.0rem;
+
+        &__main {
+            font-size: 2.8rem;
+        }
+
+        &__sub {
+            font-size: 2rem;
+        }
     }
 </style>

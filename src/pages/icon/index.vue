@@ -15,7 +15,14 @@
     }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+    @import "../../assets/scss/mixins.scss";
+    .c-designItems {
+        @include content()
+    }
+    .c-item {
+        @include item()
+    }
     .icon {
         position: relative;
         /* 1em = 10pxにする */
