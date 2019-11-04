@@ -1,8 +1,10 @@
 <template>
-    <div class="c-content">
+    <div>
         <div class="c-designItems">
             <div class="c-item">
-                <button type="submit" @click="openModal">open</button>
+                <button type="submit" @click="openModal">
+                    open
+                </button>
                 <div class="c-modal" v-if="modal">
                     <div class="c-modal-overlay">
                         <div class="c-modal-dialog">
@@ -29,7 +31,6 @@
                             </div>
                         </div>
                     </div>
-                    <div class="backdrop"></div>
                 </div>
             </div>
         </div>

@@ -1,5 +1,5 @@
 <template>
-    <div class="c-content">
+    <div>
         <div class="c-designItems">
             <div class="c-item">
                 <a href="#" class="btn-square-shadow">

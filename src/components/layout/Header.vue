@@ -1,9 +1,7 @@
 <template>
-    <div class="c-content">
-        <div class="c-heading">
-            <h1 class="c-heading__main">css-design</h1>
-            <h2 class="c-heading__sub">this is design</h2>
-        </div>
+    <div class="c-heading">
+        <h1 class="c-heading__main">css-design</h1>
+        <h2 class="c-heading__sub">this is design</h2>
     </div>
 </template>
 

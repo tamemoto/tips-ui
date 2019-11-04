@@ -1,16 +1,11 @@
 * {
     font-size: 62.5%;
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 body {
     background: #9EC545;
     color: #555555;
-}
-.c-content {
-    width: 95%;
-    max-width: 1000px;
-    margin: 4rem auto;
 }
 .c-designItems, .c-item {
     display: flex;

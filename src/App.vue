@@ -1,36 +1,27 @@
 <template>
   <div id="app">
     <Header />
-    <Icon />
-    <Menu />
-    <Button />
-    <Modal />
-    <Info />
+    <router-view />
   </div>
 </template>
 
 <script>
-import Header from './components/Header'
-import Menu from './components/Menu'
-import Icon from './components/Icon'
-import Button from './components/Button'
-import Modal from './components/Modal'
-import Info from './components/Info'
-
+import Header from './components/layout/Header'
 
 export default {
   name: 'app',
   components: {
-    Header,
-    Icon,
-    Menu,
-    Button,
-    Modal,
-    Info
+    Header
+  },
+  methods: {
   }
 }
 </script>
 
 <style scoped>
-
+  #app {
+    width: 95%;
+    max-width: 1000px;
+    margin: 4rem auto;
+  }
 </style>
